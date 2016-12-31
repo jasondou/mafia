@@ -77,11 +77,8 @@
 		B37D79F61E16B9B1000B7D43 /* Mafia */ = {
 			isa = PBXGroup;
 			children = (
-				B37D79F91E16B9B1000B7D43 /* AppDelegate.swift */,
 				B37D79FB1E16B9B1000B7D43 /* ViewController.swift */,
 				B37D79FD1E16B9B1000B7D43 /* Main.storyboard */,
-				B37D7A001E16B9B1000B7D43 /* Images.xcassets */,
-				B37D7A021E16B9B1000B7D43 /* LaunchScreen.xib */,
 				B37D79F71E16B9B1000B7D43 /* Supporting Files */,
 			);
 			path = Mafia;
@@ -90,6 +87,9 @@
 		B37D79F71E16B9B1000B7D43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B37D79F91E16B9B1000B7D43 /* AppDelegate.swift */,
+				B37D7A001E16B9B1000B7D43 /* Images.xcassets */,
+				B37D7A021E16B9B1000B7D43 /* LaunchScreen.xib */,
 				B37D79F81E16B9B1000B7D43 /* Info.plist */,
 			);
 			name = "Supporting Files";
