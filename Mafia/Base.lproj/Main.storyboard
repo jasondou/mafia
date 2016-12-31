@@ -22,18 +22,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="12" minValue="8" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="865-2b-tIy">
-                                <rect key="frame" x="14" y="151" width="430" height="31"/>
-                                <connections>
-                                    <action selector="changeNum:" destination="BYZ-38-t0r" eventType="valueChanged" id="EQK-iE-dvz"/>
-                                </connections>
-                            </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epd-er-uHn">
                                 <rect key="frame" x="171" y="72" width="109" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="12" minValue="8" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="w8n-cd-GEy">
+                                <rect key="frame" x="14" y="130" width="268" height="31"/>
+                                <connections>
+                                    <action selector="changeNum:" destination="BYZ-38-t0r" eventType="valueChanged" id="4gf-RE-eoM"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1323" y="472"/>
+            <point key="canvasLocation" x="594" y="395"/>
         </scene>
     </scenes>
 </document>

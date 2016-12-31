@@ -28,4 +28,5 @@ class ViewController: UIViewController {
         print("current num \(playerNum) \n")
         displayNum!.text = String(playerNum)
     }
+
 }
